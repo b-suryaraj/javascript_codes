@@ -1,12 +1,12 @@
 let num="33"
 
-console.log(typeof(num)) //string
-console.log(typeof num)  //string
+// console.log(typeof(num)) //string
+// console.log(typeof num)  //string
 
 let valueIntNum= Number(num) //gets converted to number
 
-console.log(typeof valueIntNum); //o/p number
-console.log(valueIntNum);  // output : 33
+// console.log(typeof valueIntNum); //o/p number
+// console.log(valueIntNum);  // output : 33
 
 // let variable = "33abc"
 // let valueIntNum2 = Number(variable) //gets converted to number
@@ -18,8 +18,8 @@ console.log(valueIntNum);  // output : 33
 let variable = null
 let valueIntNum2 = Number(variable) //gets converted to number
 
-console.log(typeof valueIntNum2);  //o/p number
-console.log(valueIntNum2);  // output : 0 (null values gets converted to 0 int value)
+// console.log(typeof valueIntNum2);  //o/p number
+// console.log(valueIntNum2);  // output : 0 (null values gets converted to 0 int value)
 
 
 // "33" => 33
@@ -31,8 +31,8 @@ console.log(valueIntNum2);  // output : 0 (null values gets converted to 0 int v
 let isLoggedIn = 1 //number
 let booleanIsLoggedIn = Boolean(isLoggedIn) //gets converted to Boolean datatype
 
-console.log(typeof booleanIsLoggedIn);  //o/p boolean
-console.log(booleanIsLoggedIn); //true
+// console.log(typeof booleanIsLoggedIn);  //o/p boolean
+// console.log(booleanIsLoggedIn); //true
 
 /*  1 gets converted to true
     0 gets converted to false
@@ -40,6 +40,44 @@ console.log(booleanIsLoggedIn); //true
     "surya" gets converted to true (valued string)
 
 */
+
+
+//******************Operations**************
+
+let val = 3
+let negVal = -val
+// console.log(negVal);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**2);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " surya"
+let str3 = str1 + str2
+console.log(str3);
+
+// console.log(1+"2");
+// console.log("1"+2);
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+console.log(+true);
+console.log(+"");
+
+
+
+
+
+
+
+
+
+
+
 
 
 
